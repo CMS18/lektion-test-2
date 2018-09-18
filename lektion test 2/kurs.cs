@@ -12,15 +12,19 @@ namespace lektion_test_2
         public int Poang { get; set; }
         public string StartDatum { get; set; }
         public string SlutDatum { get; set; }
+
         public double BeraknaAntalKursDagar(DateTime a, DateTime b)
         {
             var Diff = b.Date - a.Date;
             double AntalDagar = Diff.TotalDays;
-            return AntalDagar;
+            return AntalDagar + 1;
         }
-        public void PoangPerKursDag()
-        {
 
+        public double PoangPerKursDag(int poang, DateTime a, DateTime b)
+        {
+            double dagar = BeraknaAntalKursDagar(a, b);
+            double poangPerDag = poang / dagar;
+            return poangPerDag;
         }
     }
 }

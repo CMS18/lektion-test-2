@@ -39,5 +39,12 @@ namespace lektion_test_2
            double AntalDagar = MyKurs.BeraknaAntalKursDagar(DateTime.Parse(StartDatumLabel.Text), DateTime.Parse(SlutDatumLabel.Text));
             MessageBox.Show(AntalDagar.ToString() + " Dagar");
         }
+
+        private void Beraknapoang_Click(object sender, EventArgs e)
+        {
+            kurs Mykurs = new kurs();
+            double poangPerDag = Mykurs.PoangPerKursDag(int.Parse(textBox2.Text), DateTime.Parse(StartDatumLabel.Text), DateTime.Parse(SlutDatumLabel.Text));
+            MessageBox.Show("Antal poäng per dag på kursen är: " + poangPerDag);
+        }
     }
 }
