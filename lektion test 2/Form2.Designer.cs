@@ -147,10 +147,10 @@
             // 
             // cmdVisa
             // 
-            this.cmdVisa.Location = new System.Drawing.Point(57, 302);
+            this.cmdVisa.Location = new System.Drawing.Point(152, 302);
             this.cmdVisa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmdVisa.Name = "cmdVisa";
-            this.cmdVisa.Size = new System.Drawing.Size(187, 49);
+            this.cmdVisa.Size = new System.Drawing.Size(172, 49);
             this.cmdVisa.TabIndex = 11;
             this.cmdVisa.Text = "Visa";
             this.cmdVisa.UseVisualStyleBackColor = true;
@@ -158,10 +158,10 @@
             // 
             // button2_rensa
             // 
-            this.button2_rensa.Location = new System.Drawing.Point(273, 302);
+            this.button2_rensa.Location = new System.Drawing.Point(346, 302);
             this.button2_rensa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2_rensa.Name = "button2_rensa";
-            this.button2_rensa.Size = new System.Drawing.Size(187, 49);
+            this.button2_rensa.Size = new System.Drawing.Size(173, 49);
             this.button2_rensa.TabIndex = 12;
             this.button2_rensa.Text = "Rensa";
             this.button2_rensa.UseVisualStyleBackColor = true;
@@ -169,10 +169,10 @@
             // 
             // button3_hamtabetyg
             // 
-            this.button3_hamtabetyg.Location = new System.Drawing.Point(595, 322);
+            this.button3_hamtabetyg.Location = new System.Drawing.Point(581, 322);
             this.button3_hamtabetyg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3_hamtabetyg.Name = "button3_hamtabetyg";
-            this.button3_hamtabetyg.Size = new System.Drawing.Size(187, 49);
+            this.button3_hamtabetyg.Size = new System.Drawing.Size(185, 49);
             this.button3_hamtabetyg.TabIndex = 13;
             this.button3_hamtabetyg.Text = "Hämta betyg";
             this.button3_hamtabetyg.UseVisualStyleBackColor = true;
