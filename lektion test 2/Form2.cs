@@ -38,8 +38,10 @@ namespace lektion_test_2
 
                 MessageBox.Show(fel);
             }
-
+            else
+            {
             MessageBox.Show("Du har matat in " + newStudent.Fornamn + " " + newStudent.Efternamn + " " + newStudent.Personnummer + " " + newStudent.Email + " " + newStudent.Telefon);
+            }
         }
 
         private void button3_hamtabetyg_Click(object sender, EventArgs e)
@@ -49,6 +51,15 @@ namespace lektion_test_2
             listBox1.Items.Add(kurserBetyg[0, 0] + ", " + kurserBetyg[0, 1]);
             listBox1.Items.Add(kurserBetyg[1, 0] + ", " + kurserBetyg[1, 1]);
             listBox1.Items.Add(kurserBetyg[2, 0] + ", " + kurserBetyg[2, 1]);
+        }
+
+        private void button2_rensa_Click(object sender, EventArgs e)
+        {
+            textBox1_fornamn.Clear();
+            textBox2_efternamn.Clear();
+            textBox3_personnummer.Clear();
+            textbox4_telefon.Clear();
+            textBox5_email.Clear();
         }
     }
 }
